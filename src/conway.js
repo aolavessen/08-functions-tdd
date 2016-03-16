@@ -5,7 +5,7 @@
  * @param  {Array} neighbors
  * @return {Number}
  */
-function aliveNeighbors(neighbors) {
+function aliveNeighbors(neighbors) {test
 
 }
 
