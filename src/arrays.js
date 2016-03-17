@@ -19,17 +19,17 @@ function sameFirst(a, b) {
  * @return {Boolean}
  */
 function deepEquals(a, b) {
-  for (i = 0; i < arr.length; i++) {
-    if (a.[i] === b.[i]) {return true;
+  for (i = 0; i < a.length; i++) {
+    if (a.length != b.length) {
+      return false;
     }
-    else  (a.[i] !== b.[i]) {return false;
+    if (a[i] === b[i]) {
     }
-    else  (a.[1] !== b.[1]) {return false;
-    }
-    else (a.length !== b.length) {return false;
+    else {
+      return false;
     }
   }
-
+  return true;
 }
 
 function arraySum(arr) {
